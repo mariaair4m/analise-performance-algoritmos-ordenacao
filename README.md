@@ -21,3 +21,35 @@ Desenvolver um sistema capaz de analisar e comparar o desempenho de diferentes a
 
 ## Base de Dados
 Dados de queimadas do INPE referentes ao estado de Minas Gerais entre 2023 e 2024.
+
+## Funcionalidades
+- Leitura de arquivos CSV
+- Escolha do algoritmo de ordenação
+- Escolha do critério de ordenação
+- Contagem de trocas realizadas
+- Exibição dos resultados ordenados
+
+## Complexidade dos Algoritmos
+| Algoritmo | Complexidade Média |
+|------------|------------------|
+| Bubble Sort | O(n²) |
+| Selection Sort | O(n²) |
+| Insertion Sort | O(n²) |
+| Cocktail Shaker Sort | O(n²) |
+| Shell Sort | O(n^(3/2)) |
+| Quick Sort | O(n log n) |
+| Merge Sort | O(n log n) |
+| Heap Sort | O(n log n) |
+
+## Como Executar
+1. Instale o MinGW.
+2. Clone o repositório.
+3. Compile:
+```bash
+gcc main.c -o programa
+```
+4. Execute:
+```bash
+./programa
+```
+
