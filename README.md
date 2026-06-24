@@ -53,3 +53,14 @@ gcc main.c -o programa
 ./programa
 ```
 
+## Documentação
+O relatório técnico detalha o desenvolvimento do sistema, incluindo:
+
+- Fundamentação teórica sobre algoritmos de ordenação;
+- Implementação em linguagem C;
+- Estrutura do programa;
+- Base de dados de queimadas do INPE;
+- Metodologia de testes e validação;
+- Comparação de desempenho entre os algoritmos implementados.
+
+📄 Arquivo: [Visualizar Relatório](https://github.com/mariaair4m/analise-performance-algoritmos-ordenacao/blob/main/Relat%C3%B3rio_de_desenvolvimento.pdf)
