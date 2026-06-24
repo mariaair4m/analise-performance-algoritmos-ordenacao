@@ -6,7 +6,7 @@ Desenvolver um sistema capaz de analisar e comparar o desempenho de diferentes a
 
 ## Como utilizar
 ### Método 1 - Utilizando o Executável
-1. Baixe ou clone estes repositórios: .
+1. Baixe estes repositórios: (APS.exe) .
 2. Abra a pasta do projeto.
 3. Execute o arquivo `.exe`.
 4. Escolha o arquivo CSV contendo os dados de queimadas.
