@@ -4,10 +4,36 @@ Sistema em C para comparação de algoritmos de ordenação utilizando dados de 
 ## Objetivo
 Desenvolver um sistema capaz de analisar e comparar o desempenho de diferentes algoritmos de ordenação aplicados a dados de queimadas obtidos do INPE.
 
-## Tecnologias Utilizadas
-- Linguagem C
-- Dev-C++
-- MinGW
+## Como utilizar
+### Método 1 - Utilizando o Executável
+1. Baixe ou clone estes repositórios: .
+2. Abra a pasta do projeto.
+3. Execute o arquivo `.exe`.
+4. Escolha o arquivo CSV contendo os dados de queimadas.
+6. Escolha o método de ordenação.
+7. Aguarde o processamento e visualize os resultados.
+
+### Método 2 - Compilando o Código Fonte
+
+#### Pré-requisitos
+
+- GCC ou MinGW instalado
+- Visual Studio Code ou Dev-C++
+
+#### Compilação
+
+```bash
+gcc *.c -o sistema
+```
+
+#### Execução
+
+```bash
+sistema.exe
+```
+
+---
+
 
 ## Algoritmos Implementados
 - Bubble Sort
@@ -19,15 +45,6 @@ Desenvolver um sistema capaz de analisar e comparar o desempenho de diferentes a
 - Shell Sort
 - Cocktail Shaker Sort
 
-## Base de Dados
-Dados de queimadas do INPE referentes ao estado de Minas Gerais entre 2023 e 2024.
-
-## Funcionalidades
-- Leitura de arquivos CSV
-- Escolha do algoritmo de ordenação
-- Escolha do critério de ordenação
-- Contagem de trocas realizadas
-- Exibição dos resultados ordenados
 
 ## Complexidade dos Algoritmos
 | Algoritmo | Complexidade Média |
@@ -41,19 +58,8 @@ Dados de queimadas do INPE referentes ao estado de Minas Gerais entre 2023 e 202
 | Merge Sort | O(n log n) |
 | Heap Sort | O(n log n) |
 
-## Como Executar
-1. Instale o MinGW.
-2. Clone o repositório.
-3. Compile:
-```bash
-gcc main.c -o programa
-```
-4. Execute:
-```bash
-./programa
-```
 
-## Documentação
+## Relatório
 O relatório técnico detalha o desenvolvimento do sistema, incluindo:
 
 - Fundamentação teórica sobre algoritmos de ordenação;
@@ -64,3 +70,7 @@ O relatório técnico detalha o desenvolvimento do sistema, incluindo:
 - Comparação de desempenho entre os algoritmos implementados.
 
 📄 Arquivo: [Visualizar Relatório](https://github.com/mariaair4m/analise-performance-algoritmos-ordenacao/blob/main/Relat%C3%B3rio_de_desenvolvimento.pdf)
+
+## 🎓 Projeto Acadêmico
+
+Projeto desenvolvido para estudo e comparação de desempenho entre diferentes algoritmos de ordenação aplicados a grandes volumes de dados reais.
