@@ -6,12 +6,9 @@ Desenvolver um sistema capaz de analisar e comparar o desempenho de diferentes a
 
 ## Como utilizar
 ### Método 1 - Utilizando o Executável
-1. Baixe estes repositórios: (APS.exe) .
-2. Abra a pasta do projeto.
-3. Execute o arquivo `.exe`.
-4. Escolha o arquivo CSV contendo os dados de queimadas.
-6. Escolha o método de ordenação.
-7. Aguarde o processamento e visualize os resultados.
+1. Baixe os seguintes repositórios: [Executável](APS.exe) | [Banco de dados mg 2023](focos_br_mg_ref_2023.csv) | [Banco de dados mg 2024](focos_br_mg_ref_2024.csv)
+2. Escolha o método de ordenação.
+3. Aguarde o processamento e visualize os resultados.
 
 ### Método 2 - Compilando o Código Fonte
 
