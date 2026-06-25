@@ -1,4 +1,4 @@
-## Analise-Performance-Algoritmos-Ordenacao
+## Analise de Performance de Algoritmos de Ordenação
 Sistema em C para comparação de algoritmos de ordenação utilizando dados de queimadas do INPE
 
 ## Objetivo
